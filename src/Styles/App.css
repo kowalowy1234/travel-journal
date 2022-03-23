@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+
+.App {
+  font-family: Inter, sans-serif;
+}
+
+.Header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 18px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  background-color: #F55A5A;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 65px;
+}
+
+.Card {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px;
+  justify-content: center;
+  max-width: 710px;
+}
+
+.Card--image-wrapper {
+  max-width: 200px;
+  height: 303px;
+  background-color: #F55A5A;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+
+.Card--image-wrapper > img {
+  height: 303px;
+}
+
+.Card--content {
+  max-width: 470px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Card--location {
+  color: #2B283A;
+  font-size: 19px;
+  letter-spacing: 0.17em;
+}
+
+.Card--location > a {
+  margin-left: 16px;
+  font-size: 19px;
+  line-height: 12px;
+  letter-spacing: 0;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.Card--content > h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 30px;
+
+  color: #2B283A;
+}
+
+.Card--dates {
+  color: #2B283A;
+  font-weight: 700;
+}
+
+hr {
+  margin: 40px auto;
+  max-width: 710px;
+}
